@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomString4NetTester", "R
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomString4NetTest", "RandomString4NetTest\RandomString4NetTest.csproj", "{12C4F675-E7CE-4B15-889A-EC269AA8E4B3}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RandomString4Net", "RandomString4Net\RandomString4Net.csproj", "{F0A77092-0C76-4151-843C-CD1BD33174B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DotNetRandomStringGenerator", "RandomString4Net\DotNetRandomStringGenerator.csproj", "{F0A77092-0C76-4151-843C-CD1BD33174B0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FA42BC52-B3AE-465A-BCCF-EDA5F1FF8804}"
 EndProject

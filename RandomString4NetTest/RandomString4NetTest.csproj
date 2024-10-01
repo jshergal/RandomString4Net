@@ -19,7 +19,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\RandomString4Net\RandomString4Net.csproj" />
+    <ProjectReference Include="..\RandomString4Net\DotNetRandomStringGenerator.csproj" />
   </ItemGroup>
 
   <ItemGroup>

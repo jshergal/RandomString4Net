@@ -1,20 +1,14 @@
-# RandomString4Net
-### Version 1.8.0
+# DotNetRandomStringGenerator
+### Version 1.9.0
 
-Author : Lakhya Jyoti Nath (ljnath)<br>
-Date : September 2020 - December 2022 - January 2023 - October 2023 - November 2023<br>
-Email : ljnath@ljnath.com<br>
-Website : https://www.ljnath.com
+Authors :
+Jeff Shergalis 
+Lakhya Jyoti Nath (ljnath)
 
-[![Nuget](https://img.shields.io/nuget/v/RandomString4Net)](https://www.nuget.org/packages/RandomString4Net/)
-[![Nuget](https://img.shields.io/nuget/dt/RandomString4Net)](https://www.nuget.org/stats/packages/RandomString4Net)
-![GitHub](https://img.shields.io/github/license/ljnath/RandomString4Net)
-![CodeFactor Grade](https://img.shields.io/codefactor/grade/github/ljnath/RandOMString4Net)
-![Codecov](https://img.shields.io/codecov/c/github/ljnath/RandomString4Net)
-
+Date : September 2020 - October 2024  
 
 ## Introduction
-RandomString4Net is a library developed in .NET Framework to generate N random strings of M length from various categories. It is fast and suports string generation of various length.<br><br>
+DotNetRandomStringGenerator is a library developed in .NET Framework to generate N random strings of M length from various categories. It is fast and suports string generation of various length.<br><br>
 It is parameterized to generate both a single or a list of random strings.<br>
 Random strings can be of types alphabet and alphanumeric supporting all the cases viz. lower, upper and mixed.<br>
 It also supports symbol during the random string generation process. Following are the list of supported symbols
@@ -30,8 +24,6 @@ It also allows you to generate random string with only a subset of symbols from 
 * fake name generator
 etc. etc.
 
-
-
 ## Features
 * Supports single or multiple random string generation 
 * Supports random string generation from alphabet, numbers, symbols or a combination of them
@@ -41,12 +33,7 @@ etc. etc.
 * Built with compilation conditions to take advantage of newer .NET Framework functionalities
 * Improved performance in newer .NET Framework ( >2.0)
 * Added support to force include strings of each type (version 1.4.0)
-* Added support for .NET (>5.0)
-* Added support for .NET Core (>2.2)
-* Added support for .NET Standard (>2.0)
-* Added support for RandomNumberGenerator in .NET 6.0 and higher as RNGCryptoServiceProvider is marked as obsolete
-* Added support for .NET 8.0
-
+* Supports .NET Framework 2.0 - .NET 8.0
 
 ## Supported Types
 * **NUMBER** : *0123456789*
@@ -68,7 +55,7 @@ etc. etc.
 ## Get Started
 ### 1. Install Package
 ```ini
-PM> Install-Package RandomString4Net
+PM> Install-Package DotNetRandomStringGenerator
 ```
 ### 2. Add reference in your project
 
@@ -114,4 +101,4 @@ Thanks in advance !
 
 ## License
 
-Copyright © 2020-2023 [Lakhya's Innovation Inc.](https://github.com/ljnath/) under the [MIT License](https://github.com/ljnath/RandomString4Net/blob/master/LICENSE).
+Copyright © 2024 [Stuce Software Solutions](https://stucesoftware.com/) under the [MIT License](https://github.com/jshergal/RandomString4Net/blob/master/LICENSE).

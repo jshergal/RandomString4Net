@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>net20;netstandard2.0;netstandard2.1;net6.0;net8.0</TargetFrameworks>
+    <VersionPrefix>1.9.0</VersionPrefix>
+    <Authors>Jeff Shergalis;Lakhya Jyoti Nath</Authors>
+    <Company>Stuce Software Solutions</Company>
+    <Description>.NET library to generate random strings. This package is based on the original RandomString4Net package by Lakhya Jyoti Nath.</Description>
+    <Copyright>Copyright © 2020-2024</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageId>DotNetRandomStringGenerator</PackageId>
+    <PackageProjectUrl>https://github.com/jshergal/RandomString4Net</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/jshergal/RandomString4Net.git</RepositoryUrl>
+    <PackageTags>dotnetrandomstringgenerator dotnetrandomstring random string C# libray password generator passwordgenerator generation symbols randomsymbols lowercase uppercase mixedcase customsymbols randomnumber number</PackageTags>
+    <PackageReleaseNotes>
+        - Changed targets to .NET Framework 2.0, .NET Standard 2.0, .NET Standard 2.1, .NET 6.0 and .NET 8.0
+        - Added support for .NET 8.0
+        - Added support for RandomNumberGenerator in .NET 6.0 and higher as RNGCryptoServiceProvider is marked as obsolete
+        - Added support for .NET Standard (&gt;2.0)
+        - Added support for .NET Core (&gt;2.2)
+        - Added support for .NET (&gt;5.0)
+        - Added support to generate random strings by including strings of each type
+        - Added performance improvement for .NET Framework &gt; 2.0
+        - Added support to generate true unique random numbers
+        - Added support for multiple .NET Framework
+        - Added support for random number generation
+        - Initial release with support for alphabet, alphanumeric with any without symbols for all cases
+    </PackageReleaseNotes>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <AutoGenerateBindingRedirects>False</AutoGenerateBindingRedirects>
+    <Title>$(AssemblyName)</Title>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageIcon>DotNetRandomStringGenerator.icon.png</PackageIcon>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <SignAssembly>False</SignAssembly>
+    <IncludeSymbols>False</IncludeSymbols>
+    <DebugType>embedded</DebugType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\images\DotNetRandomStringGenerator.icon.png">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.3" PrivateAssets="All" />
+  </ItemGroup>
+</Project>
